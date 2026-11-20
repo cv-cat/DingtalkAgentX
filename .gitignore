@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+
+# 测试/工具缓存
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# 本机运行时数据 (绝不入库: 凭证/消息/设置/头像)
+~/.dingtalkx/
+credentials.json
+*.msgpack
+msgs/
+avatars/
+
+# IDE / 系统
+.idea/
+.vscode/
+*.swp
+Thumbs.db
+.DS_Store
+
+# 本地调试产物 (日志/临时文件)
+*.log
+*.bin.tmp
+sniff/
+captures/
